@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>04 - Form</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main>
-      <h1>Exercise 04 - Form</h1>
-      <!-- Add your code here -->
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>04 - Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main>
+    <h1>Exercise 04 - Form</h1>
+    <!-- Add your code here -->
+    <form class="form">
+      <h2 class="form-header1">Sign Up From </h2>
+      <p class="form-header2"> Fill up the items in the form below </p>
+      <label class="input-label" for="name">Name: </label><input type="text" placeholder="Ahmad Zafar"
+        class="input-text">
+      <label class="input-label" for="username">Username: </label><input type="text" placeholder="agah" class="
+        input-text">
+      <label class="input-label" for="email">Email:</label><input type="email" placeholder="portland"
+        class="input-text">
+      <label class="input-label" for="password">Password: </label><input type="password" placeholder="102jfdj"
+        class="input-text">
+      <label class="input-label" for="dob"> Date of birth </label><input type="date" placeholder="01/05/1998"
+        class="input-text">
+      <label class="input-label" for="pronouns">Preferred Pronouns</label>
+      <label class="radio-label"><input type="radio" class="radio">She/her</label>
+      <label class="radio-label"><input type="radio" class="radio">He/him</label>
+      <label class="radio-label"><input type="radio" class="radio">They/them</label>
+      <label class="radio-label"><input type="radio" class="radio">I prefer not to say</label>
+      <input class="submit" type="submit" value="Submit">
+      <input class="reset" type="submit" value="Reset">
+    </form>
+  </main>
+</body>
+
 </html>

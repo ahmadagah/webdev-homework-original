@@ -13,9 +13,14 @@
 }
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
   color: var(--black);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -27,9 +32,156 @@ form {
 }
 
 /* Code for exercise 01-navbar */
+ul {
+  background-color: #080808;
+  list-style-type: none;
+  overflow: hidden;
+  height: 70px;
+  line-height: 70px;
+}
+ul li {
+  float: right;
+  margin: 0;
+}
 
+ul li:hover {
+  background-color: #a2106d;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fefefe;
+  padding: 20px;
+}
 /* Code for exercise 02-cards */
+section.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 10px;
+}
+
+section.card-header {
+  color: #080808;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #fefefe;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+img {
+  width: 140px;
+  height: 160px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+section.card-body {
+  padding: 10px;
+}
+
+section.card-footer {
+  background-color: #080808;
+  color: #fff;
+  margin: 20px;
+  height: 40px;
+  text-align: center;
+}
+.footer-text {
+  padding-top: 8px;
+}
 
 /* Code for exercise 03-table */
+.table {
+  width: 100%;
+  border: 3px solid #ccc;
+}
 
+.header {
+  background-color: #080808;
+  color: #fefefe;
+}
+
+.c1 {
+  background-color: #a2106d;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+  border: 3px solid #ccc;
+}
+
+tr:hover {
+  background-color: #ffa500;
+}
 /* Code for exercise 04-form */
+form {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.form-header1 {
+  margin: 0%;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+.form-header2 {
+  margin: 0%;
+  padding-top: 3px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+.input-label {
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.input-text {
+  width: 250px;
+}
+
+.radio-label {
+  display: inline-block;
+  width: 400px;
+}
+
+.radio {
+  display: inline-block;
+  width: 20px;
+}
+
+.submit {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.submit:hover {
+  background-color: #a2106d;
+}
+
+.reset {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  margin-right: 5px;
+}
